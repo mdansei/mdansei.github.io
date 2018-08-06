@@ -69,7 +69,7 @@ const Menu = () => (
 
 
 ReactDOM.render(
-    <Router>
+    <Router basename="profile">
         <div>
             <Menu />
             <Switch>
